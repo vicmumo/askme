@@ -20,3 +20,9 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+Route::get('/logins', function () {
+    return view('log.login');
+});
+Route::get('/create', function () {
+    return view('log.create');
+});
