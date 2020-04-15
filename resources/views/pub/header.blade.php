@@ -9,7 +9,8 @@
 	          <li class="nav-item active"><a href="{{ url('/')}}" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="{{ url('about')}}" class="nav-link">About</a></li>
 	          <li class="nav-item"><a href="{{ url('contact')}}"class="nav-link">Contact</a></li>
-			  <li class="nav-item cta mr-md-2"><a href="{{ url('logins')}}" class="nav-link">Login</a></li>
+			  <li class="nav-item cta mr-md-2"><a href="{{ url('logins')}}" class="nav-link">Login</a>
+			</li>
 	        </ul>
 	      </div>
 	    </div>
